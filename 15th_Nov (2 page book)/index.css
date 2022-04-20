@@ -1,0 +1,88 @@
+*{margin: 0;
+padding: 0;}
+
+body{
+    background-color: #f0f8ff;
+}
+
+#book1{
+    margin:40px 50px 40px 450px;
+    border: solid black 2px;
+    background-color: #d7f5f2;
+    height: 1000px;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 red;
+}
+.head{
+    margin: 8px;
+    height: 80px;
+    background-image: url(wood.jpg);
+    color: #ffffff;
+    font-family: 'Yuji Mai', serif;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+h1{
+    padding: 4px;
+    text-align: center;
+}
+.des{
+    margin: 15px 0 0 0;
+    font-family: 'Petemoss', cursive;
+    font-size: 25px;
+}
+.one,.two,.three{
+    padding: 15px;
+}
+button{
+    float: right;
+    margin: 10px 35px 10px 0;
+    padding: 8px;
+    border-radius: 8px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+p.one::first-letter{
+    font-size: 35px;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+p.one:hover{
+    background-color: #efd8f0;
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+p.two:hover{
+    background-color:#efd8f0;
+    font-size: 15px;
+    color:#000000;
+    font-weight: bold;
+}
+p.three:hover{
+    background-color:#efd8f0;
+    font-size: 15px;
+    color:#000000;
+    font-weight: bold;
+}
+button.bt1:hover{
+    background-color:#65c6f0 ;
+    border: solid black 2px;
+    border-radius:15px;
+    padding: 15px;
+}
+h1:hover{
+    color: #e4eb2a;
+    font-size: 50px;
+}
+.des:hover{
+    font-weight: bold;
+    font-size: 28px;
+}

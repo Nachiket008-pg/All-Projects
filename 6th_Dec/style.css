@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to bottom, #694fb1, #1981d8, #00aae5, #31cfe3, #8fefe0);
+}
+.left{
+    float: left;
+    padding: 50px;
+    margin: 280px 0 400px 170px;
+    background-color: #8a20f5;
+    color: #ebebeb;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: 'Bitter', serif;
+}
+.left > p {
+    font-size: 1.6em;
+}
+.left > h1 {
+    font-size: 2em;
+    font-weight: 1000;
+}
+form{
+    float: right;
+    margin: 20px 200px 20px 0;
+    padding: 15px;
+    height:850px;
+    width: 500px;
+    background-color: #f0f7ff;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50px;
+}
+form > h1 , h4 , .m , .name , .phone   {
+    margin: 10px 0;
+}
+form > h1 , h4 {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+h4 {
+    font-size: 1.4em;
+}
+.clg{
+    margin: 10px 0;
+}
+input , select , textarea{
+    border: 1px solid #bdbdbd;
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: bold;
+}  
+.first{
+ width: 300px;
+}
+select , .inline {
+    width: 150px;
+}
+.button{
+    margin: 10px 25px 20px 25px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color:#000000 ;
+    background-color: #dedede;
+}
+form > p , span {
+    font-weight: bold;
+
+}
+option{
+    font-weight: bold;
+}
+input[type="submit"]:hover {
+    background-color: #e6b69a;
+}
+input[type="reset"]:hover {
+    background: #e6b69a;
+}

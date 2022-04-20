@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star printing 01</title>
+</head>
+<body>
+    <h1>Pascal Star Pattern</h1>
+    <h2>To see the pettern kindly open the console of this page</h2>
+    <script>
+        var n=prompt("Enter the number")
+let string = "";
+for (let i = 1; i <= n; i++) {
+  for (let j = 0; j < i; j++) {
+    string += "*";
+  }
+  string += "\n";
+}
+for (let i = 1; i <= n - 1; i++) {
+  for (let j = 0; j < n - i; j++) {
+    string += "*";
+  }
+  string += "\n";
+}
+console.log(string);
+    </script>
+</body>
+</html>

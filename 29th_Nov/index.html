@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KBC_Game</title>
+  </head>
+  <body>
+      <h1>:: Open console to see the result ::</h1>
+    <script>
+
+        
+      var kbc_quiz = {
+        'ongoing_question': 0,
+        show_question: function(){
+                var question_1=prompt(kbc_quiz.question_list[0]+ kbc_quiz.options);
+                var question_2=prompt(kb_quizc.question_list[1]+ kbc_quiz.options);
+                var question_3=prompt(kbc_quiz.question_list[2]+ kbc_quiz.options);
+                var question_4=prompt(kbc_quiz.question_list[3]+ kbc_quiz.options);
+                
+
+                if(question_1 == kbc_quiz.correct_ans[0]){
+                  console.log("correct answer");
+                }else{
+                  console.log("incorrect answer");
+                }
+                if(question_2 == kbc_quiz.correct_ans[1]){
+                  console.log("correct answer");
+                }else{
+                  console.log("incorrect answer");
+                }
+                if(question_3 == kbc_quiz.correct_ans[2]){
+                  console.log("correct answer");
+                }else{
+                  console.log("incorrect answer");
+                }
+                if(question_4 == kbc_quiz.correct_ans[3]){
+                  console.log("correct answer");
+                }else{
+                  console.log("incorrect answer");
+                }
+            
+        },
+        
+        'question_list': ["Taj Mahal is located in ? :","CSS stands for ?","Which is the best editor ?","What is the value of g ?"],
+
+        'correct_ans': ["Agra","Cascading Style Sheet","VS Code","9.8"],
+
+        'options':["1. Agra","2. Cascading Style Sheet ","3. VS Code","4. (9.8) "],
+
+      };
+
+      var list = kbc_quiz.question_list;
+      console.log(list);
+
+      var list1 = kbc_quiz.show_question();
+      console.log(list1);
+
+    </script>
+  </body>
+</html

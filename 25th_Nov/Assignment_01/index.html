@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+</head>
+<body>
+    <h1>Todo list</h1>
+    <h2>Open console to see tthe code</h2>
+    <script>
+        console.log("Type 'display_list();' to see the todo list.")
+        console.log("Type 'add_new('item name')' to add new item to todo list. ")
+    let todo = [];
+     function display_list (){
+         for (var i = 0 ; i < todo.length ; i = i + 1){
+             console.log(todo[i]);
+         }
+     }
+     function add_new (new_task){
+              todo.push(new_task);
+     }
+     function delete_task (){
+         todo.delete_task(1,0 );
+     }
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+h3{
+    font-weight: bolder;
+}
+td{
+    font-weight: bold;
+}
+
+.tbl1, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.tbl1{
+    width: 70%;
+    height: 15px;
+}
+.tbl1 thead tr:nth-child(2n){
+    background-color: #7fb9f0;
+}
+.tbl1 thead tr:nth-child(2n+1){
+    background-color: #d97593;
+}
+
+
+
+.tbl2, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.tbl2{
+    width: 70%;
+    height: 15px;
+}
+
+.tbl2 thead tr:nth-child(1){
+    background-color: #9cbd64;
+}
+
+
+.tbl2 tbody tr:nth-child(3n){
+    background-color:#9e64bd;
+}
+.tbl2 tbody tr:nth-child(3n+1){
+    background-color:#bd9c64;
+}
+.tbl2 tbody tr:nth-child(3n+2){
+    background-color: #55a67d;
+}

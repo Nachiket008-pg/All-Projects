@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0; 
+    }
+body{
+    background-color: #007065;
+}
+.fig2{
+    margin: 100px 0 0 650px ;
+}
+
+  .triangle1 {
+      margin: 0 0 0 50px;
+         background-color: transparent;
+         height: 0px;
+         width: 0px;
+         border-radius: 0px;
+         border-style: solid;
+         border-color: transparent;
+         border-width: 50px;
+         border-bottom-color: #00a79d;
+         margin-bottom: -119px;
+     }
+     .triangle2 {
+        margin: 0 0 0 50px;
+         background-color: transparent;
+         height: 0px;
+         width: 0px;
+         border-radius: 0px;
+         border-style: solid;
+         border-color: transparent;
+         border-width: 50px;
+         border-bottom-color: #f5c181;
+        
+     }
+     .triangle3 {
+        margin: 0 0 0 50px;
+         background-color: transparent;
+         height: 0px;
+         width: 0px;
+         border-radius: 0px;
+         border-style: solid;
+         border-color: transparent;
+         border-width: 50px;
+         border-bottom-color: #ffeecf;
+         margin-top: -126px;
+     }
+         

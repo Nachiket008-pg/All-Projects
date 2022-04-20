@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #cfe2fa;
+}
+h2{
+    margin: 10px 5px;
+    font-family: 'Caveat', cursive;
+}
+.cont{
+    margin: 200px 550px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 18px;
+    background-color: #fcf2e8;
+}
+input{
+    height: 25px;
+}
+.text{
+    border-radius: 5px;
+}
+.btn{
+    font-size: 1.2em;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color:#bbfacc ;
+}
+input::placeholder{
+    padding: 4px ;
+}
+b , span{
+    font-size: 1.3em;
+    font-family: 'Bitter', serif;
+}

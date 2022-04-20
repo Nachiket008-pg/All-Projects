@@ -1,0 +1,85 @@
+*{margin: 0;
+    padding: 0;}
+    
+    body{
+        background-color: #f0f8ff;
+    }
+    h3{
+        text-align: center;
+    }
+    
+    #book2{
+        margin:40px 50px 40px 450px;
+        padding: 20px;
+        border: solid black 2px;
+        background-color: #d7f5f2;
+        height: 980px;
+        width: 650px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px 0 red;
+    }
+    .bt1{
+        float: left;
+        margin: 40px 0 40px 20px;
+        padding: 8px;
+        border-radius: 8px;
+    }
+    .bt2{
+        float: right;
+        margin: 40px 20px 40px 0;
+        padding: 8px;
+        border-radius: 8px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    .end{
+        margin: 100px 0 0 0;
+        padding: 20px;
+        background-color: #5ec9f7;
+        border: solid black 5px;
+        border-radius: 15px;
+        text-align: center;
+        font-weight: bold;
+    }
+    p.one:hover{
+        background-color: #efd8f0;
+        font-size: 15px;
+        color: #000000;
+        font-weight: bold;
+    }
+    p.two:hover{
+        background-color:#efd8f0;
+        font-size: 15px;
+        color:#000000;
+        font-weight: bold;
+    }
+    p.three:hover{
+        background-color:#efd8f0;
+        font-size: 15px;
+        color:#000000;
+        font-weight: bold;
+    }
+    h3:hover{
+           padding: 8px;
+           border: solid black 2px;
+           border-radius: 18px;
+           background-color: #4ef25e;
+           color: #000000;
+    }
+    button:hover{
+        background-color:#65c6f0 ;
+        border: solid black 2px;
+        border-radius:15px;
+        padding: 15px;
+    }
+    .end:hover{
+        font-family: 'Yuji Mai', serif;
+        font-size: 35px;
+        background-color: #daf081;
+    }
+
+    
+

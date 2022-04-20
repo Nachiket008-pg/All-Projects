@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-mid > h1{
+    font-size: 80px;
+}
+.main-heading > h1{
+    font-size: 70px;
+}
+.main-heading > p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.head{
+    margin: 8px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.head-left{
+    padding: 10px;
+   border: 2px solid black;
+   height: 80px;
+   width: 150px;
+  }
+  .head-left > p{
+      margin: 0;
+      text-align: center;
+  }
+.head-mid {
+
+    width: 600px;
+    font-weight: 150px;
+    
+}
+.head-mid>h1{
+    padding: 10px;
+    text-align: center;
+}
+.head-right{
+   
+    width: 150px;
+}
+.head-right>h5{
+    text-align: center;
+}
+.head-right>p{
+    text-align: center;
+}
+.date{
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-heading>p{
+    text-align: center;
+    text-transform: uppercase;
+}
+.cont-1{
+   display: flex;
+}
+.up-left{
+    width: 1100px;
+}
+.up-right{
+    margin: 50px 0 0 80px;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+}
+.one > h3{
+    text-align: center;
+}
+.two > h3{
+    text-align: center;
+}
+.one-art{
+    display: flex;
+}
+.two-art{
+    display: flex;
+}
+.clm-one , .clm-two , .two-clm-one , .two-clm-two ,.three-clm-one , .three-clm-two {
+    width: 140px;
+}
+.three > h3{
+    text-align: center;
+}
+.three-art{
+    display: flex;
+}
+.top{
+    margin: 20px 0 0 35px;
+}
+.up-left{
+    display: flex;
+    flex-direction: column;
+}
+.mid-left{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border-right: 1px solid black;
+}
+.mid-left > h4 , h3 {
+    text-align: center;
+}
+.mid{
+    width: 500px;
+}

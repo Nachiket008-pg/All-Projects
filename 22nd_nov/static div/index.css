@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d791e3;
+}
+h1{
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    margin: 200px 0 0 600px;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 ;
+   
+}
+.ele{
+    height: 100px;
+    width: 150px;
+    background-color: burlywood;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.ele > h2 {
+    margin: 20px 0 0 10px;
+    font-family: 'Roboto Mono', monospace;
+}

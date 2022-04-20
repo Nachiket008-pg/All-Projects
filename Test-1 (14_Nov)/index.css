@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e6f7eb;
+}
+form{
+    margin:120px 500px 200px 450px;
+    background-color: #f7ebed;
+     border: solid black 3px;
+     border-radius: 50px;
+     box-shadow: 0 0 10px 0;
+     height: 700px;
+     width: 600px;
+     text-align: center;
+}
+.name{
+    margin: 50px;
+}
+.surname{
+    margin: 50px;
+}
+.email{
+    margin: 50px;
+}
+.gen{
+    margin: 50px;
+}
+.sel{
+    margin: 50px;
+}
+.agree{
+    margin: 50px 0 20px 0;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Poppins', sans-serif;
+}
+label{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Poppins', sans-serif;
+}
+select{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Poppins', sans-serif;
+}
+input{
+    border:solid #f4f5f4 0.5px;
+    border-radius: 10px;
+    height: 25px;
+}
+button{
+    padding: 8px;
+    background-color: #e6faef;
+    font-weight:bolder;
+    border-radius: 12px;
+}
+.bt1{
+    float: left;
+    margin: 0 0 0 25%;
+}
+p{
+    margin: 50px 495px 10px 10px;
+    font-size: xx-small;
+    color: blue;
+}
+
+
+

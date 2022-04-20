@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register here</title>
+    <link rel="stylesheet" href="register.css"
+</head>
+<body>
+    <div id="left">
+        <img src="nature.jpeg">
+    </div>
+    <form>
+        <h1>Register Now</h1>
+        <div id="name">
+            <label for="myname">Name :</label>
+        <input type="text" id="myname" placeholder="Name" maxlength="10">
+        </div>
+        <div id="sur">
+            <label for="mysur">Surname :</label>
+        <input type="text" id="mysur" placeholder="Surname" maxlength="15">
+        </div>
+       <div id="mail">
+        <label for="mymail">E-mail:</label>
+        <input type="text" id="mymail" placeholder="abcd@gmail.com" pattern="[A-Z a-z 0-9_\-\.]+@+[a-z]+[\.][a-z]{2,3}">
+       </div>
+        <div id="gen">
+            <label for="mygen">Gender :</label>
+        <input type="radio" name="gender" value="male" id="mygen"> <span>Male</span>
+        <input type="radio" name="gender" value="femlae" id="mygen"> <span>Female</span>
+        </div>
+        <div id="but">
+            <button type="submit">Click me to submit !</button>
+        </div>
+
+
+    </form>
+
+    
+</body>
+</html>

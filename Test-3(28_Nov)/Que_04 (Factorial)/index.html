@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que_04 Factorial</title>
+</head>
+<body>
+    <h2>:: Open console to see the code ::</h2>
+    <script>
+        var n = prompt("Enter the number for it's factorial : ")
+        function factorial(n){
+  var answer = 1;
+  if (n == 0 || n == 1){
+    return answer;
+  }else{
+    for(var i = n; i >= 1; i--){
+      answer = answer * i;
+    }
+    return answer;
+  }  
+}
+answer = factorial(n)
+console.log("The factorial of " + n + " is " + answer);
+    </script>
+</body>
+</html>

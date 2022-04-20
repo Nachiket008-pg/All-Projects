@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montagu+Slab&family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montagu+Slab&family=Poppins:wght@600&family=Praise&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+        <form>
+            <h2>Survey</h2>
+            <div class="name">
+                <label for="myname">Name:</label>
+                <input type="text" id="myname" name="name" placeholder="Name">
+            </div>
+            <div class="surname">
+                <label for="mysurname">Surname:</label>
+                <input type="text" id="mysurname" name="surname" placeholder="Surname">
+            </div>
+            <div class="email">
+                <label for="myemail">E-mail:</label>
+                <input type="email" id="myemail" name="email" placeholder="abcd@gmail.com">
+            </div>
+            <div class="contact">
+                <label for="mycontact">Enter Mobile Number:</label>
+                <input type="tel" id="mycontact" name="contact" pattern="[0-9] {5}-[0-9] {5}">
+                <small>Format: 9876-54321</small>
+            </div>
+            <div class="dob">
+                <label for="mybirth">Enter your birth date</label>
+                <input type="date" id="mybirth" name="dob">
+            </div>
+            <div class="age">
+                <label for="myage">Age:</label>
+                <input type="number" id="myage" name="age" placeholder="23 years">
+            </div>
+            <div class="gender">
+                <label for="mygender">Gender:</label>
+                <input type="radio" value="male" id="mygender" name="gender">Male
+                <input type="radio" value="female" id="mygender" name="gender">Female
+            </div>
+      <div class="gen">
+                <label for="mypayment">Select favourite genre:</label>
+                <input type="radio" id="song" name="genre">Rock
+                <input type="radio" id="song" name="genre">Classical
+                <input type="radio" id="song" name="genre">Pop
+            </div>
+            <div class="agree">
+                <b>I hereby,assure that all the information given in the form is correct.</b><input type="checkbox" checked>
+            </div>
+            <div class="submit">
+                <button type="submit">Submit </button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+
+    
+</body>
+</html>

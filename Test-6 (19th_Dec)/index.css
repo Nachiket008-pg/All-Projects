@@ -1,0 +1,15 @@
+.container{
+    height: 600px;
+    width: 650px;
+    border: 2px solid #000000;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+.circle{
+    margin: 10px 0 0 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #406bab, #5b6fb9, #7872c4, #9773cc, #b672d0);
+}

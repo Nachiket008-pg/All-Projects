@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now | Get your dream job</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="left">
+        <h1>Apply here for Admission</h1>
+        <p>Upgrade your skills.</p>
+        <p>Get your dream job.</p>
+    </div>
+    <form action="" autocomplete="off">
+        <h1>Application Form</h1>
+        <h4>: Personal Info :</h4>
+    <div class="name">
+        <input type="text" name="fisrt_name" placeholder="Enter your first name" class="first" class="m" required>
+    </div>
+    <div class="name">
+        <input type="text" name="last_name" placeholder="Enter your last name" class="first" class="m">
+    </div>
+    <div class="mail">
+        <input type="text" name="Email" placeholder="Enter your E-mail" class="first" class="m" required>
+    </div>
+      <div class="phone">
+          <input type="tel" name="contact_number" placeholder="99999-9999" pattern="[0-9]{5}-[0-9]{5}" maxlength="10" class="first" class="m" required>
+      </div>
+      <select name="gender" id="" class="m">
+          <option value="Select" selected>Slelct Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Others">Others</option>
+      </select>
+      <input type="date" name="date_of_birth" class="m">
+      <div class="add">
+        <textarea name="address" id="" cols="50" rows="5" class="m" placeholder="Enter your address :" autocomplete="off"></textarea>
+      </div>
+      <h4>: Educational Info :</h4>
+      <select name="degree" class="m">
+        <option selected disabled>Select Degree</option>
+        <optgroup label="Bachelors">
+            <option>B. Tech</option>
+            <option>B.E.</option>
+            <option>B. Sc.</option>
+        </optgroup>
+        <optgroup label="Masters">
+            <option>M. Tech</option>
+            <option>M.E.</option>
+            <option>M. Sc.</option>
+        </optgroup>
+    </select>
+         <div class="clg">
+             <input type="text" name="clg_name" placeholder="Enter your college name" class="first" class="m">
+         </div>
+         <input type="text" name="year" placeholder="Enter your year of graduation" class="first" class="m" ><br>
+         <input type="text" name="percentage" placeholder="Percentage" min="0" max="100" step="0.1" class="m">
+         <h4>Upload Resume :</h4>
+         <input type="file" name="resume" class="file" >
+         <h4>: Course details :</h4>
+         <p>Which course do you want ?</p>
+         <input type="radio" name="crs" value="web"><span>Web</span>&emsp;&emsp;
+         <input type="radio" name="crs" value="web"><span>Advanced</span><br>
+         <input type="submit" value="Submit Here" class="button">
+         <input type="reset" value="Reset Form" class="button">
+        </form>
+</body>
+</html>

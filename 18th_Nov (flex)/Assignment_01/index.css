@@ -1,0 +1,23 @@
+body{
+    background-color: #ce9ede;
+}
+h1{
+    text-align: center;
+}
+.container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+img{
+    height: 150px;
+    width: 150px;
+}

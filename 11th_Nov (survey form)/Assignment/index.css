@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e3dfe8;
+}
+form{
+    margin: 70px 10px 70px 500px;
+    background-color: #d5f2ec;
+    height: 700px;
+    width: 550px;
+    border: solid black 2px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bolder;
+    font-size: 40px;
+    text-decoration: underline;
+}
+label{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Montagu Slab', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Praise', cursive;
+font-size: 23px;
+}
+small{
+   font-weight: bold;
+font-size: 12px;
+}
+input{
+    height: 28px;
+    border: none;
+    border-radius: 8px;
+}
+.name{
+    margin: 40px 0 20px 0;
+}
+.surnmae{
+    margin: 20px 0 0 0;
+}
+.email{
+    margin: 20px 0 0 0;
+}
+.contact{
+    margin: 20px 0 0 0;
+}
+.dob{
+    margin: 20px 0 0 0;
+}
+.age{
+    margin: 20px 0 0 0;
+}
+.gender{
+    margin: 20px 0 0 0;
+}
+.gen{
+    margin: 20px 0 0 0;
+}
+.agree{
+    margin: 20px 0 0 0;
+   
+}
+.submit{
+    margin: 20px 0 0 0;
+}
+button{
+    padding: 10px;
+    color:solid black;
+    background-color:cornsilk;
+    border-radius: 4px;
+}
+
